@@ -1,0 +1,31 @@
+{
+  "name": "search-api",
+  "version": "1.0.0",
+  "description": "A node typescript express project consuming OpenCage-Geocoder API  with postgresql and typeorm as the orm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"tsc-watch --onSuccess \"node ./dist/server.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ywalakamar/opencage-search-api.git"
+  },
+  "keywords": [
+    "typescript",
+    "typeorm",
+    "postgresql",
+    "express",
+    "node"
+  ],
+  "author": "Kipruto Barno",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ywalakamar/opencage-search-api/issues"
+  },
+  "homepage": "https://github.com/ywalakamar/opencage-search-api#readme",
+  "dependencies": {
+    "tsc-watch": "^4.0.0",
+    "typescript": "^3.7.4"
+  }
+}
